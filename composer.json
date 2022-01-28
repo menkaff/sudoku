@@ -1,0 +1,25 @@
+{
+  "name": "menkaff/sudoku",
+  "description": "Sudoku builder and validator",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Menkaff\\Sudoku\\": "src/",
+      "Menkaff\\Sudoku\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "discard-changes": true
+  },
+  "prefer-stable": true
+}
